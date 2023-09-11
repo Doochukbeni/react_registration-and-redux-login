@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+This app is a simple React Registration form and React-Redux toolkit login. The Redux login uses Redux built in fetchBasequery for ajax requests, injectEndpoints mutation and query etc. the api for this application is also available on this repo at mySQL registration and login file 
+
 ## Available Scripts
 
 In the project directory, you can run:
