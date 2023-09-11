@@ -82,9 +82,8 @@ const Login = () => {
             {errorMsg}
           </p>
 
-          <h1>Login</h1>
-
           <form onSubmit={handleSubmit}>
+            <h1>Login</h1>
             <label htmlFor="email">Email:</label>
             <input
               type="email"
@@ -107,9 +106,7 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
 
-            <button disabled={!email || !password ? true : false}>
-              sign up
-            </button>
+            <button disabled={!email || !password ? true : false}>Login</button>
           </form>
           <p>
             Don't have an Account ?<br />
